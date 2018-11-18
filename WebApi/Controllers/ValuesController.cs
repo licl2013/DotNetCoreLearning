@@ -14,6 +14,16 @@ namespace WebApi.Controllers {
             return new string[] { "value1", "value2" };
         }
 
+        /// <summary>
+        /// 测试一个提交吧 licl
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        private int Add(int a, int b) {
+            return a + b;
+        }
+
         // GET api/values/5
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id) {
